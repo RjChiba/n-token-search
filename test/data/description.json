@@ -1,0 +1,430 @@
+{
+    "text01":
+    {
+        "created": "2023-07-27T06:24:07.810195+00:00",
+        "id": 6904,
+        "links":
+        {},
+        "metadata":
+        {
+            "_buckets":
+            {
+                "deposit": "8c2ae72d-7604-4ddf-bb09-fc67a309fcb8"
+            },
+            "_deposit":
+            {
+                "created_by": 3,
+                "id": "6904",
+                "owners":
+                [
+                    3
+                ],
+                "pid":
+                {
+                    "revision_id": 0,
+                    "type": "depid",
+                    "value": "6904"
+                },
+                "status": "published"
+            },
+            "_oai":
+            {
+                "id": "oai:kanazawa-u.repo.nii.ac.jp:00006904",
+                "sets":
+                [
+                    "11:837:857:872"
+                ]
+            },
+            "author_link":
+            [
+                "9394"
+            ],
+            "item_7_biblio_info_8":
+            {
+                "attribute_name": "書誌情報",
+                "attribute_value_mlt":
+                [
+                    {
+                        "bibliographicIssueDates":
+                        {
+                            "bibliographicIssueDate": "2002-07-01",
+                            "bibliographicIssueDateType": "Issued"
+                        },
+                        "bibliographicPageEnd": "194",
+                        "bibliographicPageStart": "185",
+                        "bibliographicVolumeNumber": "2002",
+                        "bibliographic_titles":
+                        [
+                            {
+                                "bibliographic_title": "金沢大学文化人類学研究室調査実習報告書"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "item_7_description_5":
+            {
+                "attribute_name": "提供者所属",
+                "attribute_value_mlt":
+                [
+                    {
+                        "subitem_description": "金沢大学文学部文化人類学研究室",
+                        "subitem_description_type": "Other"
+                    }
+                ]
+            },
+            "item_7_source_id_11":
+            {
+                "attribute_name": "NCID",
+                "attribute_value_mlt":
+                [
+                    {
+                        "subitem_source_identifier": "AA12079036",
+                        "subitem_source_identifier_type": "NCID"
+                    }
+                ]
+            },
+            "item_creator":
+            {
+                "attribute_name": "著者",
+                "attribute_type": "creator",
+                "attribute_value_mlt":
+                [
+                    {
+                        "creatorNames":
+                        [
+                            {
+                                "creatorName": "杉浦, 文"
+                            }
+                        ],
+                        "nameIdentifiers":
+                        [
+                            {
+                                "nameIdentifier": "9394",
+                                "nameIdentifierScheme": "WEKO"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "item_files":
+            {
+                "attribute_name": "ファイル情報",
+                "attribute_type": "file",
+                "attribute_value_mlt":
+                [
+                    {
+                        "accessrole": "open_date",
+                        "date":
+                        [
+                            {
+                                "dateType": "Available",
+                                "dateValue": "2017-10-03"
+                            }
+                        ],
+                        "displaytype": "detail",
+                        "filename": "KJ00004189970.pdf",
+                        "filesize":
+                        [
+                            {
+                                "value": "826.2 kB"
+                            }
+                        ],
+                        "format": "application/pdf",
+                        "licensetype": "license_note",
+                        "mimetype": "application/pdf",
+                        "url":
+                        {
+                            "label": "KJ00004189970.pdf",
+                            "url": "https://kanazawa-u.repo.nii.ac.jp/record/6904/files/KJ00004189970.pdf"
+                        },
+                        "version_id": "9d011f6e-3db8-4d6b-8802-d7917df2d567"
+                    }
+                ]
+            },
+            "item_language":
+            {
+                "attribute_name": "言語",
+                "attribute_value_mlt":
+                [
+                    {
+                        "subitem_language": "jpn"
+                    }
+                ]
+            },
+            "item_resource_type":
+            {
+                "attribute_name": "資源タイプ",
+                "attribute_value_mlt":
+                [
+                    {
+                        "resourcetype": "departmental bulletin paper",
+                        "resourceuri": "http://purl.org/coar/resource_type/c_6501"
+                    }
+                ]
+            },
+            "item_title": "17. 白山郷開拓団について",
+            "item_titles":
+            {
+                "attribute_name": "タイトル",
+                "attribute_value_mlt":
+                [
+                    {
+                        "subitem_title": "17. 白山郷開拓団について"
+                    }
+                ]
+            },
+            "item_type_id": "7",
+            "owner": "3",
+            "path":
+            [
+                "872"
+            ],
+            "pubdate":
+            {
+                "attribute_name": "公開日",
+                "attribute_value": "2017-10-03"
+            },
+            "publish_date": "2017-10-03",
+            "publish_status": "0",
+            "recid": "6904",
+            "relation_version_is_last": true,
+            "title":
+            [
+                "17. 白山郷開拓団について"
+            ],
+            "weko_creator_id": "3",
+            "weko_shared_id": -1
+        },
+        "updated": "2024-04-23T06:31:43.578114+00:00"
+    },
+    "text02":
+    {
+        "created": "2023-07-27T06:23:45.091392+00:00",
+        "id": 6370,
+        "links":
+        {},
+        "metadata":
+        {
+            "_buckets":
+            {
+                "deposit": "b87d8afb-60ca-4e1a-af2b-a839a7c6e68e"
+            },
+            "_deposit":
+            {
+                "created_by": 3,
+                "id": "6370",
+                "owners":
+                [
+                    3
+                ],
+                "pid":
+                {
+                    "revision_id": 0,
+                    "type": "depid",
+                    "value": "6370"
+                },
+                "status": "published"
+            },
+            "_oai":
+            {
+                "id": "oai:kanazawa-u.repo.nii.ac.jp:00006370",
+                "sets":
+                [
+                    "11:25:794:811"
+                ]
+            },
+            "author_link":
+            [
+                "557"
+            ],
+            "item_7_biblio_info_8":
+            {
+                "attribute_name": "書誌情報",
+                "attribute_value_mlt":
+                [
+                    {
+                        "bibliographicIssueDates":
+                        {
+                            "bibliographicIssueDate": "2009-03-30",
+                            "bibliographicIssueDateType": "Issued"
+                        },
+                        "bibliographicIssueNumber": "2",
+                        "bibliographicPageEnd": "388",
+                        "bibliographicPageStart": "363",
+                        "bibliographicVolumeNumber": "29",
+                        "bibliographic_titles":
+                        [
+                            {
+                                "bibliographic_title": "金沢大学経済論集 = Kanazawa University Economic Review"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "item_7_publisher_17":
+            {
+                "attribute_name": "出版者",
+                "attribute_value_mlt":
+                [
+                    {
+                        "subitem_publisher": "金沢大学人間社会研究域経済学経営学系 = Faculty of Economics and Management Kanazawa University Kanazawa, Japan"
+                    }
+                ]
+            },
+            "item_7_source_id_9":
+            {
+                "attribute_name": "ISSN",
+                "attribute_value_mlt":
+                [
+                    {
+                        "subitem_source_identifier": "0285-4368",
+                        "subitem_source_identifier_type": "ISSN"
+                    }
+                ]
+            },
+            "item_7_version_type_25":
+            {
+                "attribute_name": "著者版フラグ",
+                "attribute_value_mlt":
+                [
+                    {
+                        "subitem_version_resource": "http://purl.org/coar/version/c_970fb48d4fbd8a85",
+                        "subitem_version_type": "VoR"
+                    }
+                ]
+            },
+            "item_creator":
+            {
+                "attribute_name": "著者",
+                "attribute_type": "creator",
+                "attribute_value_mlt":
+                [
+                    {
+                        "creatorNames":
+                        [
+                            {
+                                "creatorName": "小林, 信介"
+                            }
+                        ],
+                        "nameIdentifiers":
+                        [
+                            {
+                                "nameIdentifier": "557",
+                                "nameIdentifierScheme": "WEKO"
+                            },
+                            {
+                                "nameIdentifier": "50422655",
+                                "nameIdentifierScheme": "e-Rad",
+                                "nameIdentifierURI": "https://kaken.nii.ac.jp/ja/search/?qm=50422655"
+                            },
+                            {
+                                "nameIdentifier": "50422655",
+                                "nameIdentifierScheme": "金沢大学研究者情報",
+                                "nameIdentifierURI": "http://ridb.kanazawa-u.ac.jp/public/detail.php?kaken=50422655"
+                            },
+                            {
+                                "nameIdentifier": "50422655",
+                                "nameIdentifierScheme": "研究者番号",
+                                "nameIdentifierURI": "https://nrid.nii.ac.jp/nrid/1000050422655"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "item_files":
+            {
+                "attribute_name": "ファイル情報",
+                "attribute_type": "file",
+                "attribute_value_mlt":
+                [
+                    {
+                        "accessrole": "open_date",
+                        "date":
+                        [
+                            {
+                                "dateType": "Available",
+                                "dateValue": "2017-10-03"
+                            }
+                        ],
+                        "displaytype": "detail",
+                        "filename": "10満州移民送出における経済的要因の再検討（小林）.pdf",
+                        "filesize":
+                        [
+                            {
+                                "value": "638.4 kB"
+                            }
+                        ],
+                        "format": "application/pdf",
+                        "licensetype": "license_note",
+                        "mimetype": "application/pdf",
+                        "url":
+                        {
+                            "label": "10満州移民送出における経済的要因の再検討（小林）.pdf",
+                            "url": "https://kanazawa-u.repo.nii.ac.jp/record/6370/files/10満州移民送出における経済的要因の再検討（小林）.pdf"
+                        },
+                        "version_id": "917ab562-e653-46a9-9dda-5e0d2bb7f82f"
+                    }
+                ]
+            },
+            "item_language":
+            {
+                "attribute_name": "言語",
+                "attribute_value_mlt":
+                [
+                    {
+                        "subitem_language": "jpn"
+                    }
+                ]
+            },
+            "item_resource_type":
+            {
+                "attribute_name": "資源タイプ",
+                "attribute_value_mlt":
+                [
+                    {
+                        "resourcetype": "departmental bulletin paper",
+                        "resourceuri": "http://purl.org/coar/resource_type/c_6501"
+                    }
+                ]
+            },
+            "item_title": "満州移民送出における経済的要因の再検討 : 長野県を事例にして",
+            "item_titles":
+            {
+                "attribute_name": "タイトル",
+                "attribute_value_mlt":
+                [
+                    {
+                        "subitem_title": "満州移民送出における経済的要因の再検討 : 長野県を事例にして"
+                    },
+                    {
+                        "subitem_title": "Reconsideration of Economic Factors for Emigration to Manchuria : A Case Study of Nagano Prefecture",
+                        "subitem_title_language": "en"
+                    }
+                ]
+            },
+            "item_type_id": "7",
+            "owner": "3",
+            "path":
+            [
+                "811"
+            ],
+            "pubdate":
+            {
+                "attribute_name": "公開日",
+                "attribute_value": "2017-10-03"
+            },
+            "publish_date": "2017-10-03",
+            "publish_status": "0",
+            "recid": "6370",
+            "relation_version_is_last": true,
+            "title":
+            [
+                "満州移民送出における経済的要因の再検討 : 長野県を事例にして"
+            ],
+            "weko_creator_id": "3",
+            "weko_shared_id": -1
+        },
+        "updated": "2024-05-14T06:48:20.689825+00:00"
+    }
+}
