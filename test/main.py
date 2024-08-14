@@ -6,13 +6,13 @@ from genindex import generate_nindex
 from search import search
 
 if __name__ == "__main__":
-	DATA_ID = "text03"
+	DATA_ID = "text02"
 	INDEX_PATH = os.path.join(CRR_DIR, f"./data/index/{DATA_ID}.json")
 	DATA_PATH = os.path.join(CRR_DIR, f"./data/raw/{DATA_ID}.txt")
 
 	generate_nindex(INDEX_PATH, DATA_PATH)
 
-	search_text = "dolor in reprehenderit"
+	search_text = "母村内戸数割賦課額"
 	res = search(INDEX_PATH, DATA_PATH, search_text)
 
 	print(*res, sep="\n")
