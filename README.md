@@ -1,6 +1,6 @@
 # n-token search engine
 
-full-text search engine using n-gram based and tokenizer.
+full-text search engine using n-gram and tokenizer.
 
 ## requirements
 * python3.9 or older
