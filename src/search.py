@@ -2,6 +2,7 @@ import os, sys
 import json
 
 import spacy
+from ja_itaiji import Itaiji
 
 CRR_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -43,7 +44,15 @@ def search_idx(INDEX_PATH, search_text):
 		left_token  = flatten_tokens[:i]
 		right_token = flatten_tokens[i+1:]
 
-		token_index = index_data.get(token_text, [])
+		# get index list (itaiji match)
+		itaiji_texts = Itaiji.get_similar(token_text)
+		token_texts = index_data.keys()
+		token_index = []
+
+		for itaiji_text in itaiji_texts:
+
+			if itaiji_text in token_texts:
+				token_index = index_data.get(itaiji_text, [])
 
 		for index in token_index:
 			l = 0
@@ -52,7 +61,7 @@ def search_idx(INDEX_PATH, search_text):
 			# left search (maximum match)
 			while True:
 				try:
-					if left_token[l].text == index["left"][::-1][l]:
+					if Itaiji.is_similar(left_token[l].text, index["left"][::-1][l]):
 						l += 1
 					else:
 						break
@@ -63,7 +72,7 @@ def search_idx(INDEX_PATH, search_text):
 			# right search (maximum match)
 			while True:
 				try:
-					if right_token[r].text == index["right"][r]:
+					if Itaiji.is_similar(right_token[r].text, index["right"][r]):
 						r += 1
 					else:
 						break

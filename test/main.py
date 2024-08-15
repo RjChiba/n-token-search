@@ -12,7 +12,7 @@ if __name__ == "__main__":
 
 	generate_nindex(INDEX_PATH, DATA_PATH)
 
-	search_text = "母村内戸数割賦課額"
+	search_text = "満州開拓扡民送齣分㱛"
 	res = search(INDEX_PATH, DATA_PATH, search_text)
 
 	print(*res, sep="\n")
