@@ -5,17 +5,39 @@ CRR_DIR = os.path.dirname(os.path.abspath(__file__))
 ITAIJI_PATH = os.path.join(CRR_DIR, "./data/term/ja-itaiji.json")
 
 class Itaiji:
-
+	"""Handle itaiji (異体字)
+	
+	Attributes:
+	    dictionary (dict): itaiji list
+	"""
+	
 	dictionary = {}
 	with open(ITAIJI_PATH, "r", encoding="utf-8") as f:
 		dictionary = json.load(f)
 
 	@staticmethod
 	def get_family(target):
+		"""Summary
+		
+		Args:
+		    target (str): objective string
+		
+		Returns:
+		    list(str): string list equivalent to target
+		"""
 		return Itaiji.dictionary.get(target, [target])
 
 	@staticmethod
 	def is_family(kanji1, kanji2):
+		"""Summary
+		
+		Args:
+		    kanji1 (str): kanji to check
+		    kanji2 (str): kanji to check
+		
+		Returns:
+		    bool: whether kanji1 and kanji2 are equivarent
+		"""
 		if kanji1 == kanji2:
 			return True
 
@@ -23,7 +45,15 @@ class Itaiji:
 
 	@staticmethod
 	def is_similar(word1, word2):
+		"""Summary
 		
+		Args:
+		    word1 (str): word to check
+		    word2 (str): word to check
+		
+		Returns:
+		    bool: whether word1 and word2 are equivarent within itaiji
+		"""
 		# F-case: length mismatch
 		if len(word1) != len(word2):
 			return False

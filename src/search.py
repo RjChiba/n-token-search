@@ -7,6 +7,14 @@ from ja_itaiji import Itaiji
 CRR_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def extract_tokens(sent):
+	"""extract tokens for given condition
+	
+	Args:
+	    sent (list): list of the token
+	
+	Returns:
+	    list: filtered list of the tokens
+	"""
 	#固有名詞、一般名詞、動詞、形容詞のみ抽出
 	pos_tags = ('PROPN', 'NOUN', 'VERB', 'ADJ')
 	#不要語
@@ -16,6 +24,14 @@ def extract_tokens(sent):
 	return tokens
 
 def tokenize(text):
+	"""tokenize given text
+	
+	Args:
+	    text (str): target string
+	
+	Returns:
+	    list: list of the tokens
+	"""
 	nlp = spacy.load("ja_ginza")
 	doc = nlp(text)
 
@@ -24,6 +40,15 @@ def tokenize(text):
 	return tokens
 
 def search_idx(INDEX_PATH, search_text):
+	"""search index from index file 
+	
+	Args:
+	    INDEX_PATH (str): path to the index file to load
+	    search_text (str): target text
+	
+	Returns:
+	    list(list(float, list)): list of pair of found index and its priority
+	"""
 	# load index data
 	with open(INDEX_PATH, "r", encoding="utf-8") as fp:
 		index_data = json.load(fp)
@@ -92,13 +117,33 @@ def search_idx(INDEX_PATH, search_text):
 	return idx
 
 def get_sentence(text, idx, length=200):
-
+	"""get part of sentence specified by index
+	
+	Args:
+	    text (str): target text
+	    idx (int): index specify the position of the target text
+	    length (int, optional): maximum length of text to return
+	
+	Returns:
+	    str: specified text
+	"""
 	start = max(idx - length//2, 0)
 	end   = min(idx + length//2, len(text))
 
 	return text[start:end]
 
 def search(INDEX_PATH, DATA_PATH, search_text, length=40):
+	"""search text from data and return results
+	
+	Args:
+	    INDEX_PATH (str): index path to load
+	    DATA_PATH (str): index path to load
+	    search_text (str): target text
+	    length (int, optional): maximum length of text to return
+	
+	Returns:
+	    list: list of the result 
+	"""
 	idx = search_idx(INDEX_PATH, search_text)
 
 	with open(DATA_PATH, "r", encoding="utf-8") as f:
