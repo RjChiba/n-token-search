@@ -63,6 +63,8 @@ def search_idx(INDEX_PATH, search_text):
 	flatten_tokens = sum(search_tokens, [])
 	print("search tokens:", flatten_tokens)
 
+	token_texts = index_data.keys()
+
 	for i, token in enumerate(flatten_tokens):
 		token_text = token.text
 
@@ -71,13 +73,12 @@ def search_idx(INDEX_PATH, search_text):
 
 		# get index list (itaiji match)
 		itaiji_texts = Itaiji.get_similar(token_text)
-		token_texts = index_data.keys()
 		token_index = []
 
 		for itaiji_text in itaiji_texts:
 
 			if itaiji_text in token_texts:
-				token_index = index_data.get(itaiji_text, [])
+				token_index.extend(index_data.get(itaiji_text))
 
 		for index in token_index:
 			l = 0
