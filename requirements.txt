@@ -16,6 +16,7 @@ huggingface-hub==0.24.5
 idna==3.7
 ja-ginza==5.2.0
 ja-ginza-electra==5.2.0
+ja-itaiji==1.0.2
 Jinja2==3.1.4
 langcodes==3.4.0
 language_data==1.2.0

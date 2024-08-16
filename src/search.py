@@ -1,10 +1,11 @@
 import os, sys
-import json
+CRR_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.join(CRR_DIR, "../src/module/"))
 
+import json
 import spacy
 from ja_itaiji import Itaiji
 
-CRR_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def extract_tokens(sent):
 	"""extract tokens for given condition
